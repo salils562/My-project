@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best online service |myfood.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="mynew.css">
+    <style>
+        #logo{
+            margin:16px 4px -14px 11px;
+        }
+        #navbar{
+            height: 100px;
+            display:flex;
+            align-items: center;
+            position: sticky;
+            top:0px;
+        }
+        #navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    border-radius: 10px;
+    top: -5px;
+    left: -2px;
+    right: 22px;
+    height: 83%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+        nav img{
+            width: 221%;
+        height: 68px;
+        margin:-25px 0px 26px -7px; 
+        border-radius:44px; 
+        }
+        ul{
+            display: flex;
+            margin:-12px 1px 9px -22px;
+        }
+    .items{
+        text-decoration:none;
+        list-style: none;
+        font-size: 1.4rem;
+    }
+    ul li a{
+        text-decoration: none;
+        padding:5px 9px 6px 9px;
+        color: aliceblue;
+        margin:23px 17px 12px 37px;
+    }
+    h1{
+        font-size: 39px;
+    }
+    a:hover{
+       background-color: rgb(69, 118, 158);
+       color:black;
+       border-radius: 10px;
+    }
+    section{
+        height: 197px;
+        margin: 26px;
+        text-align: center;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+    section::before{
+        content: "";
+        background: url('pexels-lukas-349609.jpg') no-repeat center center/cover ;
+        top:0px;
+        left:0px;
+        width: 100%;
+        height: 430px;
+        position: absolute;
+        z-index: -1;
+
+    }
+#mypara{
+    font-size: 1.2rem;
+    color: rgb(7, 29, 48);
+    font-weight: 200;
+    width: 70%;
+  margin: auto;
+}
+.box{
+    display:flex;
+    margin:-87px 2px 33px -3px;
+    width:100%;
+    height:435px;
+    justify-content:space-around;
+}
+#img-1{
+    width:100%;
+    height: 150px;
+    border-radius: 15px;
+}
+#img-2{
+    width:100%;
+    height: 150px;
+    border-radius: 15px;
+}
+#img-3{
+    width:100%;
+    height: 150px;
+    border-radius: 15px;
+}
+.items2{
+    border:2px solid green;
+    background-color:#d4e6e6;
+    margin: 10px;
+    border-radius: 15px;
+}
+.services{
+    margin: 110px;
+    text-align: center;
+}
+#btn{
+    margin:30px;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+#btn:hover{
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+#box2::before{
+    content: "";
+    background: url('img 4.jpg') no-repeat center center/cover;
+    border-radius: 15px;
+    width: 100%;
+    height:56%;
+    top:954px;
+    position: absolute;
+    z-index:-2;
+    opacity: 0.8;
+
+}
+#box2{
+    display: flex;
+    justify-content:space-between;
+}
+.logos{
+    border:2px solid black;
+    margin: 21px 0px 0px 0px;
+    display: block;
+    border-radius: 50px;
+}
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+<img src="palil.JPG" alt="=myfood service">
+        </div>
+        <ul>
+            <li class="items"><a href="#">Home</a></li>
+            <li class="items"><a href="#">About us</a></li>
+            <li class="items"><a href="#">Services</a></li>
+            <li class="items"><a href="#">contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1>
+            WELCOME TO MY HOTEL
+        </h1>
+        <p id="mypara">Hello! friends welcome to my hotel.We are so exited to tell you about facilities in my hotel.you can enjoy diffrent food services. Also my kinds of dishes are avaliable here.</p>
+        <button id="btn">Order now</button>
+    </section>
+    <h1 class="services">
+        Our services
+    </h1>
+    <section class="box">
+        <div class="items2">
+        <img src="img1.jpg" alt="myfood" class="img" id="img-1">
+        <h1 class="head">Food catering</h1>
+        <p class="parasecond">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fuga, nisi excepturi similique dicta illo facere aut commodi minima id quisquam sed provident harum quos perspiciatis nam architecto optio blanditiis.</p>
+        </div>
+        <div class="items2">
+        <img src="img2.jpg" class="img" id="img-2">
+        <h1 class="head">Bulk Ordering</h1>
+        <p class="parasecond">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fuga, nisi excepturi similique dicta illo facere aut commodi minima id quisquam sed provident harum quos perspiciatis nam architecto optio blanditiis.</p>
+        </div>
+        <div class="items2">
+       <img src="img3.jpg" class="img" id="img-3">
+       <h1 class="head">Food Ordering</h1>
+       <p class="parasecond">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fuga, nisi excepturi similique dicta illo facere aut commodi minima id quisquam sed provident harum quos perspiciatis nam architecto optio blanditiis.</p>
+        </div>
+    </section>
+    <h1 id="our">OUR CLIENTS</h1>
+    <section id="box2">
+        <div class="division">
+            <img src="applelogo.jfif" class="logos" id="pop-1">
+        </div>
+        <div class="division"><img src="skypelogo.png" class="logos" id="pop-2">
+        </div>
+        <div class="division"><img src="microsoftlogo.png" class="logos" id="pop-3">
+        </div>
+        <div class="division" id="hp"><img src="hplogo.jpeg" class="logos" id="pop-4">
+        </div>
+        <div class="division" id="mirco"><img src="microsoftlogo.png" class="logos" id="pop-5">
+        </div>
+        <div class="division">
+            <img src="skypelogo.png" class="logos" id="pop-6">
+        </div>
+    </section>
+    <section id="rdsection">
+        <div class="rddiv">
+            <h1 id="rdhead">Contact us</h1>
+        </div>
+        <div class="rddiv">
+            <p class="inputc">Name:</p><input type="text" id="name" placeholder="Input your name" class="input">
+        </div>
+        <div class="rddiv">
+         <p class="inputc">E-mail:</p><input type="email" id="email" placeholder="Input your email" class="input">
+        </div>
+        <div class="rddiv">
+         <p class="inputc">Contact number:</p><input type="number" id="number" placeholder="Input your number" class="input">
+        </div>
+        <div class="rddiv">
+       <p class="inputc">Address:</p><input type="text" id="address" placeholder="Input your address" class="input">
+        </div>
+        <div>
+            <button id="submitbtn">Submit</button>
+        </div>
+    </section>
+</body>
+</html>

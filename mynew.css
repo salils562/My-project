@@ -1,0 +1,74 @@
+#pop-1{
+width:173%;
+height:100px;
+}
+#pop-2{
+width:137%;
+height:100px;
+}
+#pop-3{
+width:148%;
+height:100px;
+}
+#pop-4{
+width:276%;
+height:100px;
+}
+#pop-5{
+width:148%;
+height:100px;
+}
+#pop-6{
+width:137%;
+height:100px;
+}
+.division{
+    margin:1px 68px 23px 34px;
+}
+#hp{
+margin:0px 100px 10px 24px;
+}
+#our{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 3.8rem;
+}
+#rdsection::before{
+    background: url('contactus.jfif') no-repeat center center/cover;
+    top:1295px;
+    border-radius: 15px;
+    height: 100%;
+    opacity: 0.4;
+}
+#rdsection{
+display: flex;
+flex-direction: column;
+}
+#rdhead{
+    font-size: 4rem;
+    margin: -30px 0px 0px 0px;
+}
+.input{
+    width: 40%;
+    height: 20px;
+    border-radius: 5px;
+}
+.inputc{
+    margin: 11px 0px 0px 0px;
+    font-size: 20px;
+}
+#submitbtn{
+    width: 20%;
+    color: rgb(10, 8, 8);
+    font-weight:bold;
+    border-radius: 15px;
+    margin:30px 0px 0px 0px;
+    font-size: 1rem;
+}
+#submitbtn:hover{
+background-color: black;
+color: aliceblue;
+font-size: 1.5rem;
+cursor: pointer;
+}
